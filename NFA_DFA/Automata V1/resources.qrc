@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>index.ui</file>
+        <file>nfa.ui</file>
+        <file>transition.ui</file>
+        <file>icons8-bot-48.png</file>
+    </qresource>
+</RCC>

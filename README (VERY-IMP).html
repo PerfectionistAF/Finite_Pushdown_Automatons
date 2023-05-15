@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Automaton</title>
+    <style>
+        #title{
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">My Automaton App User Guide</h1>
+	<h2> To run the project, you can run it from the Exectuable file found in the Exectuable file directory/Automata.exe.</h2>
+    <p>This is a quick user guide on how to get started with My Automaton App</p>
+    <p>This is the first panel you will see when you run the program</p>
+    <img src="" alt="first-screen">
+    <p>You can either click on "Convert NFA to DFA" or "Convert CFG to PDA" depending on your choice</p>
+    <p>Now let's discuss how to use both UI's in order to perform the required conversion</p>
+
+    <ol>
+        <li><h2>NFA to DFA</h2>
+            <img src="img/first-screen.png" alt="nfa-to-dfa">
+            <p>To input the NFA that is going be converted to DFA, you have to follow the following steps: </p>
+            <ul>
+                <li>Insert all of the required fields (States,Input Symbols,Start, and Accepting States) as shown in the following example</li>
+                <img src="img/example-1.png" alt="example-1">
+                <li>Click on "Add transition table" to add edges between states you want to connect</li>
+                <img src="img/add-transition-table-screen.png" alt="add transition table screen">
+                <li>Add in the "From" field the source state as shown above</li>
+                <li>Add in the "To" field the destination state as shown above</li> 
+                <li>Add in the "On" field the symbol that transfers from the source to the destination state as shown above</li> 
+                <li>Then ckick on the "Add edge" button</li>
+                <li>Keep repeating the previous 3 steps until you have added all the edges of your NFA</li>
+                <li>Whenyou are done, Click on the "Done" button</li> 
+                <li>Then click on "Draw DFA" to display the required DFA output</li>
+                <img src="img/DFA Output.png" alt="DFA output">
+               
+            </ul>
+        </li>
+        <p>Your are now done! now click on the "Back" button to see how to convert CFG to PDA and click on the "Convert CFG to PDA" button</p>
+        <li><h2>CFG to PDA</h2>
+            <img src="img/cfg-to-pda.png" alt="cfg-to-pda">
+        <ul>
+            <li>Now we are going to repeat the exact same steps as before to convert the CFG to PDA</li>
+            <img src="img/example-2.png" alt="example-2">
+            <li>Insert all required fields as shown above</li>
+            <li>Click on "Add Production Rules"</li>
+            <img src="img/add-production-rule.png" alt="add production rule">
+            <li>In the same as "Add transition table" add the all the required productions and click on "add edge" each time you want to add a production rule </li>
+            <li>When you're done, Click on the "Done" button</li>
+            <li>Then click on "draw pda" to display the generated PDA as shown below</li>
+            <img src="img/pda output.png" alt="pda output">
+
+
+        </ul></li>
+    </ol>
+	
+	
+</body>
+</html>
